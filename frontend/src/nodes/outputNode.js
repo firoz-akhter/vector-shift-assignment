@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Handle, Position } from "reactflow";
+import { createNode } from "./AbstractBaseNode";
 
 // export const OutputNode = ({ id, data }) => {
 //   const [currName, setCurrName] = useState(data?.outputName || id.replace('customOutput-', 'output_'));
