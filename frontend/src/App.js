@@ -9,7 +9,6 @@ function App() {
       <PipelineToolbar />
       <PipelineUI />
       <SubmitButton />
-      {/* testing branch switch */}
     </div>
   );
 }
