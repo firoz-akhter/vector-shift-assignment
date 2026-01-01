@@ -1,3 +1,5 @@
+import { createNode } from "./AbstractBaseNode";
+
 export const PromptTemplateNode = createNode({
   label: "Prompt Template",
   description: "Build complex prompts",
